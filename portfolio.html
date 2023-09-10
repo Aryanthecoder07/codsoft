@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body{
+            margin: 0px;
+            padding:0px;
+            background-color: black;
+            color: yellow;
+
+        }
+        .logo{
+            font-size: 30px;
+        }
+        .header{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+            background-color: transparent;
+
+            
+        }
+    .menu a {
+        text-decoration: none;
+        color: yellow;
+        margin: 10px;
+
+    }
+    .menu a.active,.menu a:hover{
+        background: linear-gradient(45deg,#f06,#3cf,#f06);
+    }
+    .content{
+        display: flexbox;
+        height: 300vh;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .left{
+    
+        float : left;
+        max-width: 400px;
+        
+        position: relative;
+        margin-left: 100px;
+        margin-top: 200px;
+        
+
+
+    }
+    .left h2{
+        margin-left:50px;
+        font-size: 45px;
+    }
+    .left h3{
+        margin-left: 50px;
+        font-size: 40px;
+    }
+    button{
+        background: linear-gradient(45deg,#f06,#3cf,#f06);
+        margin-left: 40px;
+    
+    }
+    
+    .right{
+        float : right;
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        background: linear-gradient(#f06,#3cf,#f06,45 deg);
+        
+        margin-left: 1000px;
+        margin-top: 200px;
+        
+        
+        
+    }
+    img{
+        height: 380px;
+        width: 350px;
+    }
+    .page1,.page2{
+        width: 100%;
+        height: 100vh;
+        
+    }
+    .page2 h2{
+        font-size: 50px;
+        margin-left: 500px;
+    }
+    .skills li{
+        font-size: 20px;
+        background: linear-gradient(45deg,#f06,#3cc,#f07);
+        margin-top: 10px;
+    }
+    .page2 h4{
+        font-size: 50px;
+        margin-left: 500px;
+    }
+    .proj li{
+        font-size: 20px;
+        margin-top: 10px;
+        background: linear-gradient(45deg,purple,skyblue,pink);
+
+    }
+    .resume h2{
+        font-size: 50px;
+        margin-left: 500px;
+    }
+    .resume a{
+        font-size: 20px;
+        margin-left: 500px;
+        color: white;
+        text-decoration: none;
+        border: 2px solid white;
+        border-radius: 8px;
+        background: green;
+    }
+    .cd ul li{
+        
+        margin-top: 10px;
+        font-size: 20px;
+        background: linear-gradient(45deg,purple,skyblue,pink);
+
+    }
+    .cr p{
+        margin-left: 500px;
+    }
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <b>.portfolio</b>
+        </div>
+        <nav class="menu">
+            <ul>
+                <a href="#" class="active">ABOUT</a>
+                <a href="#">SKILLS</a>
+                <a href="#">CV</a>
+                <a href="#">CONTACT</a>
+            </ul>
+
+        </nav>
+
+
+    </header>
+    <div class="content">
+    <div class="page1">
+        <div class="left">
+            <h2><b>I am Aryan Chanana</b></h2>
+            <h3><b>College student</b></h3>
+            <p>I am a college student persuing b.tech in IT branch at IIIT Bhubneswar.
+                I have keen interest in web devlopment and data science.I have the knowledge Of
+                java,c,c++,python.My codchef rating is 1105.
+            </p>
+            <button>Hire me</button>
+        </div>
+        <div class="right">
+            <div class="glowing-circle">
+                <img src="dp1.png.jpg" >
+            </div>
+        </div>
+
+    </div>
+    <div class="page2">
+        <h2><b>Skills I have</b></h2>
+        <p ><ul class="skills">
+            <li>competitive programming</li>
+            <li>data science</li>
+            <li>web development</li>
+            <li>c programming</li>
+            <li>Java programming</li>
+            <li>python programming</li>
+            <li>MS Excel</li>
+        </ul></p>
+        <div class="project">
+            <h4>Projects</h4>
+            <ul class="proj">
+                <li>bmi buddy(c programming)</li>
+                <li>atm interface(java programming)</li>
+                <li>portfolio(html,css)</li>
+                <li>calculator(html,css,javascript)</li>
+            </ul>
+        </div>
+        <div class="resume">
+            <h2>Resume</h2>
+            <a href="https://drive.google.com/file/d/1zm2Nwi2vdwbgw-ab1OFntK-txeaUusvD/view?usp=drivesdk" target="blank">click here</a>
+            
+        </div>
+        <div class="cd">
+            <h2>Contact Details</h2>
+            <ul>
+                
+                <li>Phone Number:9518681895</li>
+               <li>Email Address:aryanchanana777@gmail.com</li>
+            </ul>
+            
+        </div>
+        <div class="cr">
+            
+
+            <p>Copyright&copy;2023 Designed by Aryan Chanana</p>
+            
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
